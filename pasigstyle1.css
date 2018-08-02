@@ -298,7 +298,7 @@ background:#ffffff;
 margin-bottom:24px;
 background:#ffffff;
 }
-#left .box p, #right .box p, #left input, #right input, #left select, #right select {
+#left .box p, #right .box p, #left input, #right input, #left select, #right select, li {
 	font-size:.9em;
 }
 h2{
