@@ -286,7 +286,12 @@ color:#ffffff;
 background: #94a6be url(http://www.preservationandarchivingsig.org/stat-files/lock.gif) no-repeat right;
 }
 
-
+/* Standard Lists */
+.standard li {
+	font-size: 1.1em;
+	margin: 2px;
+	padding: 4px;
+}
 
 /* Content type styles
 ----------------------------------------------- */
@@ -453,13 +458,13 @@ td.middlelabel {
 	display:block;
 	float:right;
 }
-.highlight{ 
-        background:rgb(127, 222, 255); 
-        color:rgb(63, 27, 0); 
-        border-bottom: 2px solid rgb(207, 207, 207); 
-        padding: 0.1em; 
-        padding-left: 1em; 
-        font-weight:bold;       
+.highlight{
+        background:rgb(127, 222, 255);
+        color:rgb(63, 27, 0);
+        border-bottom: 2px solid rgb(207, 207, 207);
+        padding: 0.1em;
+        padding-left: 1em;
+        font-weight:bold;
 }
 
 .picture {
@@ -473,19 +478,18 @@ vertical-align:middle; margin-bottom: 3px; }
 .right { margin: 0.5em 0pt 0.5em 1.8em; float:right; }
 .left { margin: 0.5em 1.8em 0.5em 0; float:left; }
 
-.img-shadow { 
-float:left; 
-background: url(http://www.preservationandarchivingsig.org/images/ShadowAlpha.png) no-repeat bottom right !important; 
-background: url(http://www.preservationandarchivingsig.org/images/Shadow.gif) no-repeat bottom right; 
-margin: 10px 0 0 10px !important; 
-margin: 10px 0 0 5px; 
-} 
-.img-shadow img { 
-display: block; 
-position: relative; 
-background-color: #fff; 
-border: 1px solid #a9a9a9; 
-margin: -6px 6px 6px -6px; 
-padding: 4px; 
-} 
-
+.img-shadow {
+float:left;
+background: url(http://www.preservationandarchivingsig.org/images/ShadowAlpha.png) no-repeat bottom right !important;
+background: url(http://www.preservationandarchivingsig.org/images/Shadow.gif) no-repeat bottom right;
+margin: 10px 0 0 10px !important;
+margin: 10px 0 0 5px;
+}
+.img-shadow img {
+display: block;
+position: relative;
+background-color: #fff;
+border: 1px solid #a9a9a9;
+margin: -6px 6px 6px -6px;
+padding: 4px;
+}
